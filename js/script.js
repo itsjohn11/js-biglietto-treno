@@ -16,26 +16,29 @@ ALTRIMENTI
 
 OUTPUT stampo il messaggio il console
 */
+
 const kmStr = prompt(`How many km will you travel?`)
 console.log(kmStr);
 
 const ageStr = prompt(`How old are you?`)
 console.log(ageStr);
 
+
 //esecuzione logica
-const prezzoBase = kmStr * 0.21;
-console.log(prezzoBase);
+const prezzoFinale = kmStr * 0.21;
+console.log(prezzoFinale);
 
 if (prezzoFinale){
-    prompt (`prezzoBase = kmStr * 0.21`);
+    const prezzoFinale = kmStr * 0.21;
 }
-
 if (ageStr < 18 ){  
-    prompt(`age < 18 sconto 20% prezzo finale a €`+prezzoBase -((prezzoBase*20)/100)); 
+    const multipli = prezzoFinale * 20 / 100;
+    console.log(multipli);
 }else if (ageStr > 65) {
-    prompt(`age > 65 sconto 40% prezzo finale a €`+prezzoBase -((prezzoBase*40)/100));
+    const multipli = prezzoFinale * 40 / 100;
+    console.log(multipli);
 }else {
-    prompt (`prezzo biglietto intero €`+ prezzoBase);
+
 }
 
 
