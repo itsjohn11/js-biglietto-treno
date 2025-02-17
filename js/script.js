@@ -25,23 +25,22 @@ console.log(ageStr);
 
 
 //esecuzione logica
-const prezzoFinale = kmStr * 0.21;
-console.log(prezzoFinale);
+    const prezzoFinale = kmStr * 0.21;
+    console.log(prezzoFinale);
 
 if (prezzoFinale){
     const prezzoFinale = kmStr * 0.21;
+    // let x = 3.14; ; 
+
 }
 if (ageStr < 18 ){  
-    const multipli = prezzoFinale * 20 / 100;
+    const multipli = prezzoFinale * 80 / 100;
     console.log(multipli);
 }else if (ageStr > 65) {
-    const multipli = prezzoFinale * 40 / 100;
+    const multipli = prezzoFinale * 60 / 100;
     console.log(multipli);
 }else {
-
 }
-
-
 
 
 
